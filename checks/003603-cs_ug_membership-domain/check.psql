@@ -1,0 +1,1 @@
+SELECT (count(*) = 0) FROM cs_ug_membership LEFT JOIN cs_domain ON ug_domain = cs_domain.id WHERE cs_domain.id IS NULL AND cs_ug_membership.ug_domain IS NOT NULL

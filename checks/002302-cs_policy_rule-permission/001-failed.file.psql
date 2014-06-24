@@ -1,0 +1,1 @@
+SELECT cs_policy_rule.id FROM cs_policy_rule LEFT JOIN cs_permission ON cs_permission.id = permission WHERE cs_permission.id IS NULL

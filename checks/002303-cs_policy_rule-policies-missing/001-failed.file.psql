@@ -1,0 +1,1 @@
+SELECT cs_policy_rule.id FROM cs_policy_rule RIGHT JOIN cs_policy ON cs_policy.id = policy WHERE policy IS NULL

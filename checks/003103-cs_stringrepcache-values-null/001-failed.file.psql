@@ -1,0 +1,1 @@
+SELECT cs_stringrepcache.id FROM cs_stringrepcache WHERE class_id IS NULL OR object_id IS NULL OR stringrep IS NULL

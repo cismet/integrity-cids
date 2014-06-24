@@ -1,0 +1,1 @@
+SELECT cs_attr.id as "cs_attr.id" , class_id as "cs_class.id" FROM cs_attr LEFT JOIN cs_class ON class_id = cs_class.id WHERE cs_class.id IS NULL

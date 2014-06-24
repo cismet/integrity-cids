@@ -1,0 +1,1 @@
+SELECT cs_usr.id FROM cs_usr WHERE administrator IS NULL

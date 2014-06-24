@@ -1,0 +1,1 @@
+SELECT cs_attr.id as "cs_attr.id" , foreign_key_references_to as "cs_class.id" FROM cs_attr LEFT JOIN cs_class ON cs_attr.foreign_key_references_to = cs_class.id WHERE cs_attr.foreign_key_references_to IS NOT NULL AND cs_class.id IS NULL AND foreign_key_references_to >= 0

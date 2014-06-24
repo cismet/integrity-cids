@@ -1,0 +1,1 @@
+SELECT cs_class.id as "cs_class.id", renderer as "cs_java_class.id" FROM cs_class LEFT JOIN cs_java_class ON renderer = cs_java_class.id WHERE renderer IS NOT NULL AND cs_java_class.id IS NULL

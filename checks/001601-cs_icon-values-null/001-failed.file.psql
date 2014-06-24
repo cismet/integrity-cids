@@ -1,0 +1,1 @@
+SELECT cs_icon.id FROM cs_icon WHERE name IS NULL OR file_name IS NULL

@@ -1,0 +1,1 @@
+SELECT cs_ug_method_perm.id FROM cs_ug_method_perm LEFT JOIN cs_method ON cs_ug_method_perm.method_id = cs_method.id WHERE cs_method.id IS NULL

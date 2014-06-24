@@ -1,0 +1,1 @@
+SELECT cs_ug_membership.id FROM cs_ug_membership LEFT JOIN cs_ug ON ug_id = cs_ug.id WHERE cs_ug.id IS NULL

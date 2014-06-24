@@ -1,0 +1,5 @@
+Test-Failure:    class_id in cs_type is null
+involved tables: cs_type
+description:     the class_id field in cs_type is null, despite complex_type being true.
+                 Every complex_type is a class, and therefore needs a class_id.
+Hints:           Either the class_id value in cs_type is missing, or complex_type should be false.

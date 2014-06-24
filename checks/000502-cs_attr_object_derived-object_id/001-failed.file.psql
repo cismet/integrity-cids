@@ -1,0 +1,1 @@
+SELECT class_id, object_id FROM cs_attr_object_derived WHERE NOT cidsObjectExists(class_id, object_id)

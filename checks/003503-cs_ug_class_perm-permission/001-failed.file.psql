@@ -1,0 +1,1 @@
+SELECT cs_ug_class_perm.id FROM cs_ug_class_perm LEFT JOIN cs_permission ON permission = cs_permission.id WHERE cs_permission.id IS NULL

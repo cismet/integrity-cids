@@ -1,0 +1,1 @@
+SELECT cs_type.id as "cs_type.id" FROM cs_type WHERE class_id IS NULL AND complex_type = TRUE

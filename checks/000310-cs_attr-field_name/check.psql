@@ -1,0 +1,1 @@
+SELECT (count(*) = 0) FROM cs_attr LEFT JOIN cs_class ON cs_attr.class_id = cs_class.id LEFT JOIN information_schema.columns ON lower(cs_attr.field_name) = lower(columns.column_name) AND lower(cs_class.name) = lower(columns.table_name) WHERE columns.column_name IS NULL AND cs_class.id IS NOT NULL AND NOT extension_attr

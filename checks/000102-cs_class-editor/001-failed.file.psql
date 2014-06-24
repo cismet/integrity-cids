@@ -1,0 +1,1 @@
+SELECT cs_class.id as "cs_class.id", editor as "cs_java_class.id" FROM cs_class LEFT JOIN cs_java_class ON editor = cs_java_class.id WHERE editor IS NOT NULL AND cs_java_class.id IS NULL

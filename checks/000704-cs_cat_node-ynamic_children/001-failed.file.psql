@@ -1,0 +1,1 @@
+SELECT cs_cat_node.id FROM cs_cat_node WHERE execute((dynamic_children)) like 'No:%'

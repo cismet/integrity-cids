@@ -1,0 +1,1 @@
+SELECT cs_config_attr_type.id FROM cs_config_attr_type WHERE type IS NULL

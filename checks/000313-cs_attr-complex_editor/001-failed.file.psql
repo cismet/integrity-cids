@@ -1,0 +1,1 @@
+SELECT cs_attr.id as "cs_attr.id" , complex_editor as "cs_java_class.id" FROM cs_attr LEFT JOIN cs_java_class ON complex_editor = cs_java_class.id WHERE complex_editor IS NOT NULL AND cs_java_class.id IS NULL

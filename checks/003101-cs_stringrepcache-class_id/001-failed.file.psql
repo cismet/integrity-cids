@@ -1,0 +1,1 @@
+SELECT cs_stringrepcache.id FROM cs_stringrepcache LEFT JOIN cs_class ON class_id = cs_class.id WHERE cs_class.id IS NULL

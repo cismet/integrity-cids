@@ -1,0 +1,1 @@
+SELECT attrFrom.id as "from cs_attr.id" , attrFrom.array_key as "to cs_attr.name" FROM cs_attr as attrFrom LEFT JOIN cs_attr as attrTo ON attrFrom.array_key = attrTo.name WHERE attrFrom.array_key IS NOT NULL AND attrTo.name IS NULL

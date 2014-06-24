@@ -1,0 +1,1 @@
+SELECT cs_class.id as "cs_class.id", name as "table_name" FROM cs_class LEFT JOIN information_schema.columns as columns ON lower(name) = lower(columns.table_name) WHERE columns.table_name IS NULL

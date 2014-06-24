@@ -1,0 +1,1 @@
+SELECT cs_config_attr_jt.id FROM cs_config_attr_jt LEFT JOIN cs_config_attr_type ON type_id = cs_config_attr_type.id WHERE cs_config_attr_type.id IS NULL

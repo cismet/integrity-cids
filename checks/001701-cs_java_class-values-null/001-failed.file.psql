@@ -1,0 +1,1 @@
+SELECT cs_java_class.id FROM cs_java_class WHERE qualifier IS NULL OR type IS NULL OR notice IS NULL

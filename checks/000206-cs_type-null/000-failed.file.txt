@@ -1,0 +1,3 @@
+Test-Failure:    Values are null, where they shouldn't be.
+involved tables: cs_type
+description:     Either name or complex_type is null.

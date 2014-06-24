@@ -1,0 +1,1 @@
+SELECT cs_ug_attr_perm.id FROM cs_ug_attr_perm LEFT JOIN cs_ug ON ug_id = cs_ug.id WHERE cs_ug.id IS NULL

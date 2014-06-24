@@ -1,0 +1,1 @@
+SELECT cs_class_attr.id FROM cs_class_attr WHERE attr_key IS NULL OR attr_value IS NULL

@@ -1,0 +1,1 @@
+SELECT (count(*) = 0) FROM cs_class LEFT JOIN cs_icon ON class_icon_id = cs_icon.id WHERE cs_icon.id IS NULL 

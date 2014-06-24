@@ -1,0 +1,1 @@
+SELECT cs_config_attr_key.id FROM cs_config_attr_key WHERE key IS NULL

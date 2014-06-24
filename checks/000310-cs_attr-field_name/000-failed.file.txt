@@ -1,0 +1,5 @@
+Test-Failure:    Wrong value of field_name in cs_attr (1-to-n)
+involved tables: cs_attr, cs_class , [Object Table]
+description:     the in cs_attr.field_name specified attribute doesn't exist in the corresponding object table,
+                 whose name is derived from the class_id value in cs_attr.
+Hints:           Either the value in cs_attr.field_name is incorrect, the value in class_id is incorrect or the object table is missing a column.

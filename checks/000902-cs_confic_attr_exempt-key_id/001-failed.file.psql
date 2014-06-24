@@ -1,0 +1,1 @@
+SELECT cs_config_attr_exempt.id FROM cs_config_attr_exempt LEFT JOIN cs_config_attr_key ON key_id = cs_config_attr_key.id WHERE cs_config_attr_key.id IS NULL

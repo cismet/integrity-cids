@@ -1,0 +1,1 @@
+SELECT cs_attr.id as "cs_attr.id" FROM cs_attr WHERE isarray AND array_key IS NULL

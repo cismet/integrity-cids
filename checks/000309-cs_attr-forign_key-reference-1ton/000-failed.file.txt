@@ -1,0 +1,4 @@
+Test-Failure:    Wrong value of foreign_key_refernces_to in cs_attr (1-to-n)
+involved tables: cs_attr, cs_class
+description:     cs_class has no element with the id that is registered in cs_attr.foreign_key_refernces_to.
+Hints:           Either the value in cs_attr.foreign_key_refernces_to is incorrect, or a value in cs_class is missing.

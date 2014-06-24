@@ -1,0 +1,4 @@
+Test-Failure:    Wrong value of array_key in cs_attr
+involved tables: cs_attr
+description:     cs_attr has no element with the id that is registered in cs_attr.array_key.
+Hints:           Either the value in cs_attr.array_key is incorrect, or a value in cs_attr is missing.

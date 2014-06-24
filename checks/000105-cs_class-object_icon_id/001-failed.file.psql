@@ -1,0 +1,1 @@
+SELECT cs_class.id as "cs_class.id", class_icon_id as "cs_icon.id" FROM cs_class LEFT JOIN cs_icon ON object_icon_id = cs_icon.id WHERE cs_icon.id IS NULL 

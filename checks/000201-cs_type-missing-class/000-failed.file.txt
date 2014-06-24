@@ -1,0 +1,3 @@
+Test-Failure:    Entry of cs_class is missing in cs_type
+involved tables: cs_type, cs_class
+description:     There is an entry in cs_class which has no representation in cs_type

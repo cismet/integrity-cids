@@ -1,0 +1,4 @@
+Test-Failure:    Wrong value of type_id in cs_attr
+involved tables: cs_attr, cs_type
+description:     cs_type has no element with the id that is registered in cs_attr.type_id.
+Hints:           Either the value in cs_attr.type_id is incorrect, or a value in cs_type is missing.

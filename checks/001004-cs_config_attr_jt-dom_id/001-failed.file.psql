@@ -1,0 +1,1 @@
+SELECT cs_config_attr_jt.id FROM cs_config_attr_jt LEFT JOIN cs_domain ON dom_id = cs_domain.id WHERE cs_domain.id IS NULL

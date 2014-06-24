@@ -1,0 +1,1 @@
+SELECT cs_cat_node.id FROM cs_cat_node WHERE node_type != 'N' AND node_type != 'O' AND node_type != 'C'

@@ -1,0 +1,1 @@
+SELECT cs_class.id as "cs_class.id" FROM cs_class WHERE name IS NULL OR class_icon_id IS NULL OR object_icon_id IS NULL OR array_link IS NULL OR indexed IS NULL OR primary_key_field IS NULL

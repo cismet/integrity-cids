@@ -1,0 +1,4 @@
+Test-Failure:    Wrong value of editor in cs_type
+involved tables: cs_type, cs_java_class
+description:     cs_java_class has no element with the id that is registered in cs_type.editor.
+Hints:           Either the value in cs_type.editor is incorrect, or a value in cs_java_class is missing.

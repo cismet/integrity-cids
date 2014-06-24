@@ -1,0 +1,3 @@
+Test-Failure:    Foreign key with no reference
+involved tables: cs_attr
+description:     foreign_key_references_to has no value, despite foreign_key is true.

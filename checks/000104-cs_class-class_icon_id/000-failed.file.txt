@@ -1,0 +1,4 @@
+Test-Failure:    Wrong value of class_icon_id in cs_class
+involved tables: cs_class, cs_icon
+description:     cs_icon has no element with the id that is registered in cs_class.class_icon_id.
+Hints:           Either the value in cs_class.class_icon_id is incorrect, or a value in cs_icon is missing.

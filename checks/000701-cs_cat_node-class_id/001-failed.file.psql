@@ -1,0 +1,1 @@
+SELECT cs_cat_node.id FROM cs_cat_node LEFT JOIN cs_class ON cs_cat_node.class_id = cs_class.id WHERE cs_class.id IS NULL AND class_id IS NOT NULL

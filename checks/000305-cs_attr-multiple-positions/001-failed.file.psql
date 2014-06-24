@@ -1,0 +1,1 @@
+SELECT attrFrom.id as "first cs_attr.id" , attrTo.id as "second cs_attr.id" FROM cs_attr as attrFrom INNER JOIN cs_attr as attrTo ON attrFrom.pos = attrTo.pos AND attrFrom.class_id = attrTo.class_id AND attrFrom.id != attrTo.id AND attrFrom.id < attrTo.id

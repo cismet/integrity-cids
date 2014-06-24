@@ -1,0 +1,4 @@
+Test-Failure:    Wrong value of toString in cs_class
+involved tables: cs_class, cs_java_class
+description:     Cs_java_class has no element with the id that is registered in cs_class.toString.
+Hints:           Either the value in cs_class.toSting is incorrect, or a value in cs_java_class is missing.

@@ -1,0 +1,4 @@
+Test-Failure:    Table for cs_class not available
+involved tables: cs_class
+description:     The object table, cs_class references to is not were it should be
+Hints:           Either the name is spelled wrong, or a table had forgotten to be set up.

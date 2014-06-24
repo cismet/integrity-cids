@@ -1,0 +1,1 @@
+SELECT TRUE FROM cs_query_parameter

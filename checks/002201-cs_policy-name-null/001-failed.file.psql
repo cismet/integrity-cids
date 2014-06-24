@@ -1,0 +1,1 @@
+SELECT cs_policy.id FROM cs_policy WHERE name IS NULL

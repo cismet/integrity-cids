@@ -1,0 +1,1 @@
+SELECT (count(*) = 0) FROM cs_ug_cat_node_perm LEFT JOIN cs_cat_node ON cat_node_id = cs_cat_node.id WHERE cs_cat_node.id IS NULL

@@ -1,0 +1,3 @@
+Test-Failure:    Values are null, where they shouldn't be.
+involved tables: cs_class
+description:     Either name, class_icon_id, array_link, indexed, primary_key_field or object_icon_id are null.

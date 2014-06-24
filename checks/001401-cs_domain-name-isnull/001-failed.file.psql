@@ -1,0 +1,1 @@
+SELECT cs_domain.id FROM cs_domain WHERE name IS NULL

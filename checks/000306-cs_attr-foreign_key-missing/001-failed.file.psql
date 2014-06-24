@@ -1,0 +1,1 @@
+SELECT cs_attr.id as "cs_attr.id" FROM cs_attr WHERE NOT foreign_key AND foreign_key_references_to IS NOT NULL

@@ -1,0 +1,4 @@
+Test-Failure:    Wrong value of attribute_policy in cs_class
+involved tables: cs_class, cs_policy
+description:     cs_policy has no element with the id that is registered in cs_class.policy.
+Hints:           Either the value in cs_class.policy is incorrect, or a value in cs_policy is missing.

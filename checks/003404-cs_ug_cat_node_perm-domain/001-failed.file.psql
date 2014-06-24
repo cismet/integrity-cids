@@ -1,0 +1,1 @@
+SELECT cs_ug_cat_node_perm.id FROM cs_ug_cat_node_perm LEFT JOIN cs_domain ON domain = cs_domain.id WHERE cs_domain.id IS NULL
