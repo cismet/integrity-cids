@@ -1,0 +1,13 @@
+﻿CREATE OR REPLACE FUNCTION selexecute(_command character varying)
+  RETURNS setof record AS
+$BODY$
+DECLARE _r record;
+BEGIN
+for _R in EXECUTE _command  loop
+return next _r;
+end loop;
+RETURN;
+END;
+$BODY$
+  LANGUAGE plpgsql VOLATILE
+  COST 100;

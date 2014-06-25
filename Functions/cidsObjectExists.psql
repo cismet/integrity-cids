@@ -1,0 +1,30 @@
+﻿CREATE OR REPLACE FUNCTION cidsObjectExists(cid integer, oid integer)
+  RETURNS boolean AS
+$BODY$
+declare
+ b boolean;
+ table_name varchar;
+ pk_field varchar;
+ s1 varchar;
+ s2 varchar;
+begin 
+ s1='select table_name,primary_key_field from cs_class where id='||cid;
+ execute(s1) into table_name,pk_field;
+ --raise NOTICE 'tablename:%', table_name;
+ --raise NOTICE 'pk:%', pk_field;
+
+
+ s2='select count(*)>0 from '||table_name ||' where ' || pk_field || '='||oid;
+ execute(s2) into b;
+
+ --raise NOTICE '%', s1;
+ --raise NOTICE '%', s2;
+
+ return b;
+exception
+ when OTHERS THEN
+ return false;
+end
+$BODY$
+  LANGUAGE plpgsql VOLATILE
+  COST 100;
