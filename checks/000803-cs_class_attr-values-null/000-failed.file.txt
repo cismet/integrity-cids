@@ -1,0 +1,3 @@
+Test-Failure:    Values are null, where they shouldn't be.
+involved tables: cs_class_attr
+description:     Either attr_key or attr_value are null.

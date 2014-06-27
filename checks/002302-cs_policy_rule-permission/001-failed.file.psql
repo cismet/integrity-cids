@@ -1,1 +1,1 @@
-SELECT cs_policy_rule.id FROM cs_policy_rule LEFT JOIN cs_permission ON cs_permission.id = permission WHERE cs_permission.id IS NULL
+SSELECT cs_policy_rule.id as "cs_policy_rule.id" , permission as "cs_permission.id"FROM cs_policy_rule LEFT JOIN cs_permission ON cs_permission.id = permission WHERE cs_permission.id IS NULL

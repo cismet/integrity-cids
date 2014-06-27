@@ -1,1 +1,1 @@
-SELECT cs_stringrepcache.id FROM cs_stringrepcache WHERE cidsObjectExists(class_id, object_id)
+SELECT cs_stringrepcache.id as "cs_stringrepcache.id" , object_id as "object.id" FROM cs_stringrepcache WHERE cidsObjectExists(class_id as "cs_class.id", object_id as "object.id")

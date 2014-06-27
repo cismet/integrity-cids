@@ -1,0 +1,4 @@
+Test-Failure:    Wrong value of class_id in cs_class_attr
+involved tables: cs_class_attr, cs_class
+description:     cs_class has no element with the id that is registered in cs_class_attr.class_id.
+Hints:           Either the value in cs_class_attr.class_id is incorrect, or a value in cs_class is missing.

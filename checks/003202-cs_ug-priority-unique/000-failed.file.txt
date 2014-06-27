@@ -1,0 +1,3 @@
+Test-Failure:    Priority is not unique
+involved tables: cs_ug
+description:     A priority value (cs_ug.prio) is not unique in the cs_ug table

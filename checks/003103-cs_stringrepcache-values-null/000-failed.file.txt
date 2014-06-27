@@ -1,0 +1,3 @@
+Test-Failure:    Values are null, where they shouldn't be.
+involved tables: cs_stringrepcache
+description:     Either class_id, object_id or stringrep is null.

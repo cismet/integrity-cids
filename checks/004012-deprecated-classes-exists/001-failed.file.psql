@@ -1,1 +1,1 @@
-SELECT DISTINCT TRUE FROM information_schema.tables WHERE table_schema = 'public' AND table_name = 'cs_all_attr_mapping' OR table_name iLIKE '%method%' OR table_name iLIKE '%query%'
+SELECT DISTINCT TRUE FROM information_schema.tables as "Deprecated cids-class" WHERE table_schema = 'public' AND table_name = 'cs_all_attr_mapping' OR table_name iLIKE '%method%' OR table_name iLIKE '%query%'

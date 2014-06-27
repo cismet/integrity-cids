@@ -1,0 +1,4 @@
+Test-Failure:    Wrong value of usr_id in cs_config_attr_jt
+involved tables: cs_config_attr_jt, cs_usr
+description:     cs_usr has no element with the id that is registered in cs_config_attr_jt.usr_id.
+Hints:           Either the value in cs_config_attr_jt.usr_id is incorrect, or a value in cs_usr is missing.

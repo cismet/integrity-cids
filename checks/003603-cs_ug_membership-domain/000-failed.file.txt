@@ -1,0 +1,4 @@
+Test-Failure:    Wrong value of ug_domain in cs_ug_membership
+involved tables: cs_ug_membership, cs_domain
+description:     cs_domain has no element with the id that is registered in cs_ug_membership.ug_domain.
+Hints:           Either the value in cs_ug_membership.ug_domain is incorrect, or a value in cs_domain is missing.

@@ -1,1 +1,1 @@
-SELECT cs_cat_node.id FROM cs_cat_node WHERE name IS NULL OR node_type IS NULL OR is_root IS NULL OR sql_sort IS NULL OR derive_permissions_from_class IS NULL
+SELECT cs_cat_node.id as "cs_cat_node.id" FROM cs_cat_node WHERE name IS NULL OR node_type IS NULL OR is_root IS NULL OR sql_sort IS NULL OR derive_permissions_from_class IS NULL

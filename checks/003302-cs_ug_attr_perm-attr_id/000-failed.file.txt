@@ -1,0 +1,4 @@
+Test-Failure:    Wrong value of attr_id in cs_ug_attr_perm
+involved tables: cs_ug_attr_perm, cs_attr
+description:     cs_attr has no element with the id that is registered in cs_ug_attr_perm.attr_id.
+Hints:           Either the value in cs_ug_attr_perm.attr_id is incorrect, or a value in cs_attr is missing.

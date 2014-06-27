@@ -1,0 +1,4 @@
+Test-Failure:    Wrong value of tpye_id in cs_config_attr_exempt
+involved tables: cs_config_attr_exempt, cs_config_attr_type
+description:     cs_config_attr_type has no element with the id that is registered in cs_config_attr_exempt.tpye_id.
+Hints:           Either the value in cs_config_attr_exempt.tpye_id is incorrect, or a value in cs_config_attr_type is missing.

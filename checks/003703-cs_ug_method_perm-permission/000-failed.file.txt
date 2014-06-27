@@ -1,0 +1,4 @@
+Test-Failure:    Wrong value of permission in cs_ug_method_perm
+involved tables: cs_ug_method_perm, cs_permission
+description:     cs_permission has no element with the id that is registered in cs_ug_method_perm.permission.
+Hints:           Either the value in cs_ug_method_perm.permission is incorrect, or a value in cs_permission is missing.

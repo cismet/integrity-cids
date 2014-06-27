@@ -1,1 +1,1 @@
-SELECT cs_policy_rule.id FROM cs_policy_rule WHERE default_value IS NULL
+SELECT cs_policy_rule.id as "cs_policy_rule.id" FROM cs_policy_rule WHERE default_value IS NULL

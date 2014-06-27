@@ -1,0 +1,4 @@
+Test-Failure:    Wrong value of object_id in cs_locks
+involved tables: cs_locks, [Object Table]
+description:     the object table has no element with the id that is registered in cs_locks.object_id.
+Hints:           Either the value in cs_locks.object_id is incorrect, or a value in the object table is missing.

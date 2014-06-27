@@ -1,1 +1,1 @@
-SELECT cs_config_attr_jt.id FROM cs_config_attr_jt LEFT JOIN cs_config_attr_value ON val_id = cs_config_attr_value.id WHERE cs_config_attr_value.id IS NULL
+SELECT cs_config_attr_jt.id as "cs_config_attr_jt"  , val_id as "cs_config_attr_value.id" FROM cs_config_attr_jt LEFT JOIN cs_config_attr_value ON val_id = cs_config_attr_value.id WHERE cs_config_attr_value.id IS NULL

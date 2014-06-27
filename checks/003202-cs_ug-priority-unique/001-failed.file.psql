@@ -1,1 +1,1 @@
-SELECT cs_ug.id FROM cs_ug LEFT JOIN cs_ug as test_ug ON test_ug.domain = cs_ug.domain AND test_ug.prio = cs_ug.prio WHERE cs_ug.id != test_ug.id
+SELECT cs_ug.id as "cs_ug.id" ,cs_ug.prio as "priority" FROM cs_ug LEFT JOIN cs_ug as test_ug ON test_ug.domain = cs_ug.domain AND test_ug.prio = cs_ug.prio WHERE cs_ug.id != test_ug.id SORT BY cs_ug.prio

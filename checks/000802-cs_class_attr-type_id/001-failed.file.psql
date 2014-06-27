@@ -1,1 +1,1 @@
-SELECT cs_class_attr.id FROM cs_class_attr LEFT JOIN cs_type ON type_id = cs_type.id WHERE cs_type.id IS NULL
+SELECT cs_class_attr.id as "cs_class_attr.id", type_id as "cs_type.id" FROM cs_class_attr LEFT JOIN cs_type ON type_id = cs_type.id WHERE cs_type.id IS NULL

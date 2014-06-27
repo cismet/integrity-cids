@@ -1,0 +1,3 @@
+Test-Failure:    cs_cat_node.node_type not NOC.
+involved tables: cs_cat_node
+description:     The node_type doesn't have one of these values: 'N', 'O' or 'C'.

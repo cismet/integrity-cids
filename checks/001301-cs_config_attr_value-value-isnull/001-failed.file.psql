@@ -1,1 +1,1 @@
-SELECT cs_config_attr_value.id FROM cs_config_attr_value WHERE value IS NULL
+SELECT cs_config_attr_value.id as "cs_config_attr_value.id" FROM cs_config_attr_value WHERE value IS NULL

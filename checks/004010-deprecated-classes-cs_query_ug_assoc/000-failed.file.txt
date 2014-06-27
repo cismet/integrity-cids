@@ -1,0 +1,2 @@
+Test-Failure:    Deprecated class cs_query_ug_assoc still in use
+involved tables: cs_query_ug_assoc

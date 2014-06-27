@@ -1,0 +1,2 @@
+Test-Failure:    type value in cs_config_attr_type is null
+involved tables: cs_config_attr_type

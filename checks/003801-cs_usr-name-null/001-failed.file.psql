@@ -1,1 +1,1 @@
-SELECT cs_usr.id FROM cs_usr WHERE login_name IS NULL
+SELECT cs_usr.id as "cs_usr.id" FROM cs_usr WHERE login_name IS NULL

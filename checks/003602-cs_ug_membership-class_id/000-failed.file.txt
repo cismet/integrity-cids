@@ -1,0 +1,4 @@
+Test-Failure:    Wrong value of usr_id in cs_ug_membership
+involved tables: cs_ug_membership, cs_usr
+description:     cs_usr has no element with the id that is registered in cs_ug_membership.usr_id.
+Hints:           Either the value in cs_ug_membership.usr_id is incorrect, or a value in cs_usr is missing.

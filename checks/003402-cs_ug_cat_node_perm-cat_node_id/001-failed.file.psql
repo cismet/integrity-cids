@@ -1,1 +1,1 @@
-SELECT cs_ug_cat_node_perm.id FROM cs_ug_cat_node_perm LEFT JOIN cs_cat_node ON cat_node_id = cs_cat_node.id WHERE cs_cat_node.id IS NULL
+SELECT cs_ug_cat_node_perm.id as "cs_ug_cat_node_perm" , cat_node_id as "cs_cat_node.id" FROM cs_ug_cat_node_perm LEFT JOIN cs_cat_node ON cat_node_id = cs_cat_node.id WHERE cs_cat_node.id IS NULL

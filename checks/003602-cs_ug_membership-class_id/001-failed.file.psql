@@ -1,1 +1,1 @@
-SELECT cs_ug_membership.id FROM cs_ug_membership LEFT JOIN cs_class ON usr_id = cs_class.id WHERE cs_class.id IS NULL
+SELECT cs_ug_membership.id as "cs_membership.id" , usr_id as "cs_usr.id" FROM cs_ug_membership LEFT JOIN cs_class ON usr_id = cs_class.id WHERE cs_class.id IS NULL

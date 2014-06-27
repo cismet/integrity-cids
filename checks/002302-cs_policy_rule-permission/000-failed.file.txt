@@ -1,0 +1,4 @@
+Test-Failure:    Wrong value of permission in cs_locks
+involved tables: cs_locks, cs_permission
+description:     cs_permission has no element with the id that is registered in cs_locks.permission.
+Hints:           Either the value in cs_locks.permission is incorrect, or a value in cs_permission is missing.

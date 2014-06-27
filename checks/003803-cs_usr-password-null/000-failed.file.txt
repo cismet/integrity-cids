@@ -1,0 +1,2 @@
+Test-Failure:    password in cs_usr is null
+involved tables: cs_usr

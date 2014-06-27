@@ -1,1 +1,1 @@
-SELECT cs_ug_attr_perm.id FROM cs_ug_attr_perm LEFT JOIN cs_permission ON permission = cs_permission.id WHERE cs_permission.id IS NULL
+SELECT cs_ug_attr_perm.id as "cs_ug_attr_perm.id" , permission as "cs_permission.id" FROM cs_ug_attr_perm LEFT JOIN cs_permission ON permission = cs_permission.id WHERE cs_permission.id IS NULL

@@ -1,1 +1,1 @@
-SELECT 'class_id:' as a, class_id, 'attr_id:' as b, attr_id FROM cs_attr_string WHERE string_val IS NULL
+SELECT class_id as "cs_class.id", attr_id as "cs_attr.id" FROM cs_attr_string WHERE string_val IS NULL

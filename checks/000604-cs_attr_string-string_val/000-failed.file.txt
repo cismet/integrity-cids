@@ -1,0 +1,2 @@
+Test-Failure:    string_cal is null, but shouldn't
+involved tables: cs_attr_string

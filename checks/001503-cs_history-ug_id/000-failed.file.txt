@@ -1,0 +1,4 @@
+Test-Failure:    Wrong value of ug_id in cs_history
+involved tables: cs_history, cs_ug
+description:     cs_ug has no element with the id that is registered in cs_history.ug_id.
+Hints:           Either the value in cs_history.ug_id is incorrect, or a value in cs_ug is missing.

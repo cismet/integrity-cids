@@ -1,0 +1,5 @@
+Test-Failure:    Wrong value of object_id in cs_cat_node
+involved tables: cs_cat_node, [Object Table]
+description:     the in cs_cat_node.object_id specified object doesn't exist in the corresponding object table,
+                 whose name is derived from the class_id value in cs_cat_node.
+Hints:           Either the value in cs_cat_node.object_id is incorrect, the value in class_id is incorrect or the object table is missing an object.

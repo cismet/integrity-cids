@@ -1,1 +1,1 @@
-SELECT cs_ug_class_perm.id FROM cs_ug_class_perm LEFT JOIN cs_ug ON ug_id = cs_ug.id WHERE cs_ug.id IS NULL
+SELECT cs_ug_class_perm.id as "cs_ug_class_perm.id" , ug_id as "cs_ug.id" FROM cs_ug_class_perm LEFT JOIN cs_ug ON ug_id = cs_ug.id WHERE cs_ug.id IS NULL

@@ -1,0 +1,3 @@
+Test-Failure:    Missing cs_permissions element in cs_locks
+involved tables: cs_locks, cs_permissions
+description:     there is an element of cs_permissions, which is not referenced by any cs_locks element

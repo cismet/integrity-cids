@@ -1,0 +1,2 @@
+Test-Failure:    Deprecated class cs_all_attr_mapping still in use
+involved tables: cs_all_attr_mapping

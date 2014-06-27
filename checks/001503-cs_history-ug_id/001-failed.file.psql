@@ -1,1 +1,1 @@
-SELECT class_id, object_id FROM cs_history LEFT JOIN cs_ug ON ug_id = cs_ug.id WHERE cs_ug.id IS NULL
+SELECT class_id as "cs_class.id", object_id as "object.id" FROM cs_history LEFT JOIN cs_ug ON ug_id = cs_ug.id WHERE cs_ug.id IS NULL

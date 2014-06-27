@@ -1,1 +1,1 @@
-SELECT cs_policy.id FROM cs_policy WHERE name IS NULL
+SELECT cs_policy.id as "cs_policy.id" FROM cs_policy WHERE name IS NULL

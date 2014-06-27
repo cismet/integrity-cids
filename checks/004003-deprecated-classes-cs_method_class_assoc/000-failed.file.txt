@@ -1,0 +1,2 @@
+Test-Failure:    Deprecated class cs_method_class_assoc still in use
+involved tables: cs_method_class_assoc

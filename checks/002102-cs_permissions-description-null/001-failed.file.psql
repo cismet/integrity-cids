@@ -1,1 +1,1 @@
-SELECT cs_permissions.id FROM cs_permission WHERE description IS NULL
+SELECT cs_permissions.id as "cs_permissions.id" FROM cs_permission WHERE description IS NULL

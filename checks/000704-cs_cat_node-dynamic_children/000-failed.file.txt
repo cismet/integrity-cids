@@ -1,0 +1,3 @@
+Test-Failure:    Dynamic children not executable
+involved tables: cs_cat_node
+description:     the dynamic children is not an executable SQL query

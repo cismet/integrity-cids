@@ -1,1 +1,1 @@
-SELECT class_id, object_id FROM cs_history WHERE class_id IS NULL OR object_id IS NULL OR usr_id IS NULL or ug_id IS NULL or valid_from IS NULL or json_data IS NULL
+SELECT class_id as "cs_class.id", object_id as "object.id" FROM cs_history WHERE class_id IS NULL OR object_id IS NULL OR usr_id IS NULL or ug_id IS NULL or valid_from IS NULL or json_data IS NULL

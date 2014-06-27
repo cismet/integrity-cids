@@ -1,0 +1,3 @@
+Test-Failure:    Values are null, where they shouldn't be.
+involved tables: cs_cat_node
+description:     Either name, node_type, is_root, sql_sort or derive_permissions_from_class are null.

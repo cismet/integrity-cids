@@ -1,1 +1,1 @@
-SELECT cs_ug.id FROM cs_ug LEFT JOIN cs_domain ON domain = cs_domain.id WHERE cs_domain.id IS NULL
+SELECT cs_ug.id as "cs_ug.id" , domain as "cs_domain.id" FROM cs_ug LEFT JOIN cs_domain ON domain = cs_domain.id WHERE cs_domain.id IS NULL

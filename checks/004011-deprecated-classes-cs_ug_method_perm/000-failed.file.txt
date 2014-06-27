@@ -1,0 +1,2 @@
+Test-Failure:    Deprecated class cs_ug_method_perm still in use
+involved tables: cs_ug_method_perm

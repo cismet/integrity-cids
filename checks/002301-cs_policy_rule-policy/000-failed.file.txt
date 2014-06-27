@@ -1,0 +1,4 @@
+Test-Failure:    Wrong value of policy in cs_locks
+involved tables: cs_locks, cs_policy
+description:     cs_policy has no element with the id that is registered in cs_locks.policy.
+Hints:           Either the value in cs_locks.policy is incorrect, or a value in cs_policy is missing.

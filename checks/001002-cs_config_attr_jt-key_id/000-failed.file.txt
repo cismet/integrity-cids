@@ -1,0 +1,4 @@
+Test-Failure:    Wrong value of key_id in cs_config_attr_jt
+involved tables: cs_config_attr_jt, cs_config_attr_key
+description:     cs_config_attr_key has no element with the id that is registered in cs_config_attr_jt.key_id.
+Hints:           Either the value in cs_config_attr_jt.key_id is incorrect, or a value in cs_config_attr_key is missing.

@@ -1,0 +1,4 @@
+Test-Failure:    Wrong value of val_id in cs_config_attr_exempt
+involved tables: cs_config_attr_exempt, cs_config_attr_value
+description:     cs_config_attr_value has no element with the id that is registered in cs_config_attr_exempt.val_id.
+Hints:           Either the value in cs_config_attr_exempt.val_id is incorrect, or a value in cs_config_attr_value is missing.

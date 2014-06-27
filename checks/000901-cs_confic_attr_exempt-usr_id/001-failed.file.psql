@@ -1,1 +1,1 @@
-SELECT cs_config_attr_exempt.id FROM cs_config_attr_exempt LEFT JOIN cs_usr ON usr_id = cs_usr.id WHERE cs_usr.id IS NULL
+SELECT cs_config_attr_exempt.id as "cs_config_attr_exempt.id", usr_id as "cs_usr.id" FROM cs_config_attr_exempt LEFT JOIN cs_usr ON usr_id = cs_usr.id WHERE cs_usr.id IS NULL

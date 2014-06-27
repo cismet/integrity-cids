@@ -1,0 +1,3 @@
+Test-Failure:    values are null, where they shouldn't be.
+involved tables: cs_java_class
+description:     Either qualifier or type or notice are null.

@@ -1,1 +1,1 @@
-SELECT cs_ug_membership.id FROM cs_ug_membership LEFT JOIN cs_domain ON ug_domain = cs_domain.id WHERE cs_domain.id IS NULL AND cs_ug_membership.ug_domain IS NOT NULL
+SELECT cs_ug_membership.id as "cs_membership.id" , ug_domain as "cs_domain.id" FROM cs_ug_membership LEFT JOIN cs_domain ON ug_domain = cs_domain.id WHERE cs_domain.id IS NULL AND cs_ug_membership.ug_domain IS NOT NULL

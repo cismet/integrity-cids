@@ -1,1 +1,1 @@
-SELECT cs_cat_node.id FROM cs_cat_node WHERE NOT cidsObjectExists(class_id, object_id) AND object_id IS NOT NULL
+SELECT cs_cat_node.id as "cs_cat_node.id" , class_id as "cs_class.id" , object_id as "object ID" FROM cs_cat_node WHERE NOT cidsObjectExists(class_id, object_id) AND object_id IS NOT NULL

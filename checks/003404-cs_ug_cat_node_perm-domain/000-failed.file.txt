@@ -1,0 +1,4 @@
+Test-Failure:    Wrong value of domain in cs_ug_cat_node_perm
+involved tables: cs_ug_cat_node_perm, cs_domain
+description:     cs_domain has no element with the id that is registered in cs_ug_cat_node_perm.domain.
+Hints:           Either the value in cs_ug_cat_node_perm.domain is incorrect, or a value in cs_domain is missing.

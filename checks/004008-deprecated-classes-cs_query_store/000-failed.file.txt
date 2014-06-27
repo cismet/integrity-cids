@@ -1,0 +1,2 @@
+Test-Failure:    Deprecated class cs_query_store still in use
+involved tables: cs_query_store
